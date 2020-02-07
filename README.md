@@ -1,5 +1,6 @@
-# aubergine-test
-Compress image and store the compressed image url
+## aubergine-test
+
+# Compress image and store the compressed image url
 
 * create a folder and go inside that folder
 * pull the project from https://github.com/fahim-15/aubergine-test.git development
@@ -12,8 +13,9 @@ Compress image and store the compressed image url
 django server: python manage.py runserver
 celery worker: celery -A compressed_image worker -l info
 
-run a command, 'python manage.py collectsatic' if needed.
-go to browser and open 'your url'/swagger/
+# Run a command, 'python manage.py collectsatic' if needed.
+
+# Go to browser and open 'your url'/swagger/ or access it using postman
 
 1. register user
 2. Then check your mail and verify it and log in with username
